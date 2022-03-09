@@ -56,7 +56,7 @@ if [ -n "$haPath" ]; then
     cd "$haPath/custom_components" || error "Could not change path to $haPath/custom_components"
 
     info "Downloading HACS"
-    wget "https://gitee.com/gyx829065/jjas/raw/master/hacs.zip"
+    wget "https://dl-east.airportal.cn/837061/PicRXSaThG/1/hacs.zip?security-token=CAISxgJ1q6Ft5B2yfSjIr5WBOPKH2btS2bCON07hnXo%2FZMRIvYvh1jz2IHFPfHJgAeAatf0%2Bn2hU6fwTlqBaSoV9QlbYZM8oZTmXdZ3mMeT7oMWQweEubPTHcDHh5XeZsebWZ%2BLmNoO%2FHt6md1HDkAJq3LL%2Bbk%2FMdle5MJqP%2B9YFCdMMRVucbCFaI91UKwB%2Bs61%2FMmDKZ9mgLjnggGfbEDBD2GxGhHh49L60z%2BCF9xPalyea8OIOoJnrKZXWIKshNZxkAdCux740JOiT2S9K8x9Q6K5yyadCvDrOpc3aUwIOu0vfccisq4E3cFcjNvlnQPcY8aKnxccV4LKDy97FrD9WJvxQXijlQ4St%2FdDJAuvBNKxiJO2jYCSVgozUb8iu6197OyMBRwpOess8LHhrEgArSTzcJaKh9UrDfgC5Ua%2BB3bHIZnSlaKM%2FlxqAAWRuaUUsWe1uM6SqOTJQd72067q3IZAzxu610coEbW3VNt9vO5ehmc9kWJHNTtJUMlu7wok7SGzamG7mRVh9MKcFg1ZDvyJbZkrrtLL0iUCABcIrtTNctPXHfn29On2nASDYtylpguQq5slXpv5jjU6t2tl%2FfBE1vwQp6%2B1CS7ky&OSSAccessKeyId=STS.NV4sH34dsnre5hPyzjhKdRNJ4&Expires=1646808563&Signature=C89ZIQpXotE7YCMfm6SUrjng5nw%3D"
 
     if [ -d "$haPath/custom_components/hacs" ]; then
         warn "HACS directory already exist, cleaning up..."
